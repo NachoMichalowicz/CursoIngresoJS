@@ -5,13 +5,13 @@ function mostrar()
 {	
 	//Concatenando dos variables de texto:
 
-	var nombreIngresado;
-	var edadIngresada;
+	var nombre;
+	var edad;
 
-	nombreIngresado = txtIdNombre.value;
-	edadIngresada = txtIdEdad.value;
+	nombre = txtIdNombre.value;
+	edad = txtIdEdad.value;
 
-	alert("Usted se llama "+nombreIngresado+" y tiene "+edadIngresada+" años");
+	alert("Usted se llama "+nombre+" y tiene "+edad+" años");
 
 	/*Formas de concatenar:
 

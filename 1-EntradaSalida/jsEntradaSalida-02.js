@@ -4,16 +4,11 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	
-	var name; 
-	name = prompt("Please enter your name", "Harry Potter");
+	var nombre;
 
-	alert("El nombre ingresado es: "+name);
-    //alert("ok");
+	nombre = prompt("Escriba un nombre", "Nombre");
 
-    name = "María";
-
-    alert(name);
-
+	alert(nombre);
 
     /*test:
 
